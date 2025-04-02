@@ -1,0 +1,62 @@
+Traitement Vidéo
+Outils pour détecter et corriger les problèmes d'ordre des frames dans les vidéos, basés sur l'analyse des caractéristiques visuelles et le suivi d'objets.
+
+video_processing/
+├── __init__.py
+├── core/
+│   ├── __init__.py
+│   ├── video_processor.py      # Classe principale
+│   ├── configs.py              # Configuration
+│   └── utils.py                # Utilitaires génériques
+├── analysis/
+│   ├── __init__.py
+│   ├── feature_extractor.py
+│   ├── outlier_detector.py
+│   └── frame_reorderer.py
+├── tracking/
+│   ├── __init__.py
+│   ├── person_tracker.py
+│   ├── ultralytics_bot_tracker.py
+│   └── person_tracker_strongsort.py
+├── visualization/
+│   ├── __init__.py
+│   └── visualization_utils.py  # Extraire le code de visualisation
+└── main.py
+
+
+
+Installation
+bash
+pip install -r requirements.txt
+python setup.py install
+
+Utilisation rapide
+bash
+# Traiter une vidéo
+video-processor --input video.mp4 --output processed.mp4
+
+# Traiter plusieurs vidéos
+video-processor --batch video1.mp4 video2.mp4 --output-dir results
+
+Consultez l'aide pour plus d'options:
+bash
+video-processor --help
+
+
+Fonctionnalités principales
+
+Détection automatique de l'ordre des frames
+Réordonnancement basé sur le suivi des personnes
+Détection des frames aberrantes (outliers)
+Analyse des objets dans la vidéo
+Visualisations et rapports détaillés
+
+Méthodes de réordonnancement
+
+tracking : Basé sur le suivi des personnes (défaut)
+topological : Tri topologique basé sur les caractéristiques
+optical_flow : Analyse du flux optique entre frames
+feature_matching : Correspondance des caractéristiques visuelles
+fused : Méthode hybride combinant tracking et caractéristiques
+
+

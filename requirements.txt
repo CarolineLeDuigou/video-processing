@@ -1,0 +1,29 @@
+
+# Base packages
+numpy>=1.22.0
+opencv-python>=4.7.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+scipy>=1.9.0
+tqdm>=4.65.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Deep Learning and Object Detection
+torch>=2.0.0
+ultralytics>=8.0.0  # For YOLOv8
+
+# Tracking libraries
+supervision>=0.13.0  # For ByteTrack and other trackers
+deep-sort-realtime>=1.3.0  # For DeepSORT
+
+# Optional, try to install if other tracking methods fail
+strong-sort-onnx>=0.1.0  # For StrongSORT (may require manual installation)
+
+# Utilities
+Pillow>=9.0.0
+pandas>=2.0.0
+
+# Image processing
+scikit-image>=0.19.0  # For structural_similarity (SSIM)
