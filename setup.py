@@ -10,11 +10,11 @@ setup(
     name="video_processing",
     version="0.1.0",
     author="CLD",
-    author_email="your.email@example.com",
+    author_email="caroline.leduigou@gmail.com",
     description="Outils pour réordonner et analyser des vidéos",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/video-processing",
+    url="https://github.com/CarolineLeDuigou/video-processing",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
