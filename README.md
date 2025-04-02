@@ -2,7 +2,6 @@
 
 Un framework Python avancé pour le traitement, l'analyse et la correction de vidéos corrompues ou désordonnées, avec un focus sur la réorganisation intelligente des frames et le suivi d'objets.
 
-![Badges de statut](https://img.shields.io/badge/status-development-yellow) ![Python](https://img.shields.io/badge/python-3.7+-blue)
 
 ## 🌟 Caractéristiques principales
 
@@ -22,7 +21,6 @@ Un framework Python avancé pour le traitement, l'analyse et la correction de vi
   - DeepSORT
   - ByteTrack
   - BoT-SORT
-  - StrongSORT
 
 - **Extraction avancée de caractéristiques** avec analyse de textures, couleurs et mouvements
 
