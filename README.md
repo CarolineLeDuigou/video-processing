@@ -36,7 +36,17 @@ Un framework Python avancé pour le traitement, l'analyse et la correction de vi
 - GPU recommandé pour le tracking d'objets (mais non obligatoire)
 
 ### Installation simple
-```bash
+
 git clone https://github.com/CarolineLeDuigou/video-processing.git
 cd video-processing
 pip install -r requirements.txt
+
+
+### Installation avec environnement virtuel (recommandé)
+```bash
+git clone https://github.com/votre-username/video-processing.git
+cd video-processing
+python -m venv venv
+source venv/bin/activate  # ou venv\Scripts\activate sur Windows
+pip install -r requirements.txt
+
