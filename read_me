@@ -1,6 +1,7 @@
-Traitement Vidéo
+## Traitement Vidéo
 Outils pour détecter et corriger les problèmes d'ordre des frames dans les vidéos, basés sur l'analyse des caractéristiques visuelles et le suivi d'objets.
 
+## Organisation
 video_processing/
 ├── __init__.py
 ├── core/
@@ -25,35 +26,29 @@ video_processing/
 
 
 
-Installation
-bash
+## Installation
 pip install -r requirements.txt
 python setup.py install
 
 Utilisation rapide
-bash
 # Traiter une vidéo
 video-processor --input video.mp4 --output processed.mp4
 
 # Traiter plusieurs vidéos
 video-processor --batch video1.mp4 video2.mp4 --output-dir results
 
-Consultez l'aide pour plus d'options:
-bash
+## Consultez l'aide pour plus d'options:
 video-processor --help
 
-
-Fonctionnalités principales
-
+## Fonctionnalités principales
 Détection automatique de l'ordre des frames
 Réordonnancement basé sur le suivi des personnes
 Détection des frames aberrantes (outliers)
 Analyse des objets dans la vidéo
 Visualisations et rapports détaillés
 
-Méthodes de réordonnancement
-
-tracking : Basé sur le suivi des personnes (défaut)
+## Méthodes de réordonnancement
+tracking : Basé sur le suivi des personnes (Deepsort, Botsort, Bytetrack)
 topological : Tri topologique basé sur les caractéristiques
 optical_flow : Analyse du flux optique entre frames
 feature_matching : Correspondance des caractéristiques visuelles
