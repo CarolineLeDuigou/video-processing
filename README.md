@@ -51,9 +51,8 @@ source venv/bin/activate  # ou venv\Scripts\activate sur Windows
 pip install -r requirements.txt
 ```
 
-## 💻 Exemples d'utilisation
-En ligne de commande
-bashCopier
+## 💻 Exemples d'utilisation en ligne de commande
+
 ### Traitement simple
 python main.py --input corrupted_video.mp4 --output corrected_video.mp4
 
