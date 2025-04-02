@@ -27,6 +27,7 @@ Un framework Python avancé pour le traitement, l'analyse et la correction de vi
 - **Visualisations détaillées** pour l'analyse et le diagnostic
 
 - **Architecture hautement configurable** s'adaptant à différents cas d'usage
+  
 
 ## 🔧 Installation
 
@@ -36,6 +37,6 @@ Un framework Python avancé pour le traitement, l'analyse et la correction de vi
 
 ### Installation simple
 ```bash
-git clone https://github.com/votre-username/video-processing.git
+git clone https://github.com/CarolineLeDuigou/video-processing.git
 cd video-processing
 pip install -r requirements.txt
